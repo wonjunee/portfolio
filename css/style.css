@@ -1,0 +1,42 @@
+body {
+	font-family: 'Lato', sans-serif;
+	color: #2D3C49;
+	font-weight: 300;
+}
+.text-muted {
+	margin-left: 10px;
+	color: #7D97AD;
+	font-weight: 500;
+}
+.text-thin {
+	font-weight: 100;
+}
+.title-super {
+	font-size: 60px;
+}
+.title-logo {
+	margin-top: 30px;
+	width: 90px;
+}
+.col-xs-6 {
+	padding-right: 0;
+}
+.box {
+	width: calc((100% - 60px)/3);
+}
+.box.left-two {
+	margin-right: 30px;
+}
+.projects {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+}
+img {
+	width: 100%;
+}
+hr {
+	border-style: solid;
+	border-color: #7D97AD;
+	border-width: 3px 0 0 0;
+}

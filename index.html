@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Puppy Portfolio</title>
+		<link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/responsive.css">
+		<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="col-xs-6">
+				<img class="title-logo" src="images/udacity-logo.png" alt="Udacity logo">
+			</div>
+			<div class="col-xs-6 text-right text-uppercase">
+				<h1 class="title-super text-thin">Jane Doette</h1>
+				<h4>Front-end Ninja</h4>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<hr>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<img class="img-responsive" src="images/title-image.png" alt="Main puppy image">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12">
+					<h2 class="text-muted">Featured Work</h2>
+				</div>
+			</div>
+			<div class="projects">
+				<div class="box left-two text-center">
+					<img class="img-responsive center-block" src="images/appify.png" alt="Appify" data-toggle="modal" data-target="#Appify">
+					<h3 class="text-uppercase">Appify</h3>
+					<p>https://github.com/udacity/Appify/</p>
+				</div>
+				<div class="box left-two text-center">
+					<img class="img-responsive center-block" src="images/sunflower.png" alt="Sunflower puppy" data-toggle="modal" data-target="#Sunflower">
+					<h3 class="text-uppercase">Sunflower</h3>
+					<p>https://github.com/udacity/Sunflower/</p>
+				</div>
+				<div class="box text-center">
+					<img class="img-responsive center-block" src="images/bokeh.png" alt="Bokeh" data-toggle="modal" data-target="#Bokeh">
+					<h3 class="text-uppercase">Bokeh</h3>
+					<p>https://github.com/udacity/Bokeh</p>
+				</div>
+			</div>
+		</div>
+		
+	    <!-- Modal -->
+	    <div class="modal fade" id="Appify" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	        <div class="modal-dialog">
+	            <div class="modal-content">
+	                <div class="modal-header">
+	                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+	                </div>
+	                <div class="modal-body">
+		                    <img class="img-responsive center-block" src="http://placekitten.com/300/200" alt="Sunflower puppy">
+	                    This was my first project in this class. I learned a lot about HTML and CSS.
+	                </div>
+	                <div class="modal-footer">
+	                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	    <div class="modal fade" id="Sunflower" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	        <div class="modal-dialog">
+	            <div class="modal-content">
+	                <div class="modal-header">
+	                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+	                </div>
+	                <div class="modal-body">
+	                    <img class="img-responsive center-block" src="http://placekitten.com/300/200" alt="Sunflower puppy">
+	                    This was my second project in this class. I learned a lot about HTML and CSS.
+	                </div>
+	                <div class="modal-footer">
+	                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	    <div class="modal fade" id="Bokeh" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	        <div class="modal-dialog">
+	            <div class="modal-content">
+	                <div class="modal-header">
+	                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+	                </div>
+	                <div class="modal-body">
+	                    <img class="img-responsive center-block" src="http://placekitten.com/300/200" alt="Sunflower puppy">
+	                    This was my third project in this class. I learned a lot about HTML and CSS.
+	                </div>
+	                <div class="modal-footer">
+	                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</body>
+</html>
