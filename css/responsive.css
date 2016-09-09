@@ -1,23 +1,21 @@
 @media screen and (max-width: 580px) {
-	.box {
-		width: calc((100% - 20px)/3);
-	}
-	.box.left-two {
-		margin-right: 10px;
-	}
 	.title-logo {
-		width:70px;
+		width:100px;
 	}
+
 	.title-super {
 		font-size: 30px;
-		margin-top: 20px;
+		margin-top: 30px;
 	}
+
 	p {
-		font-size: 0px;
+		font-size: 7px;
 	}
+
 	h2 {
 	font-size: 20px;
 	}
+
 	h3 {
 		font-size: 20px;
 		margin-top: 5px;
@@ -26,40 +24,25 @@
 }
 
 @media screen and (max-width: 700px) and (min-width: 581px) {
-	.box {
-		width: calc((100% - 20px)/3);
-	}
-	.box.left-two {
-		margin-right: 10px;
-	}
 	.title-logo {
 		margin-top: 20px;
 		width: 100px;
 	}
+
 	.title-super {
 		font-size: 40px;
 		margin-top: 20px;
 		padding: 0;
 	}
+
 	p {
-		font-size: 10px;
+		font-size: 9px;
 	}
+
 	h3 {
 		font-size: 25px;
 		margin-top: 7px;
 		margin-bottom: 4px;
-	}
-}
-
-@media screen and (max-width: 991px) and (min-width: 701px){
-	.title-logo {
-		margin-top: 20px;
-		width: 100px;
-	}
-	.title-super {
-		font-size: 40px;
-		margin-top: 30px;
-		padding: 0;
 	}
 }
 
@@ -69,7 +52,28 @@
 		margin-top: 10px;
 		margin-bottom: 8px;
 	}
+
+	h4 {
+		font-size: 30px;
+	}
 }
+
+@media screen and (max-width: 991px) and (min-width: 701px){
+	.title-logo {
+		width:100px;
+	}
+
+	.title-super {
+		font-size: 40px;
+		margin-top: 35px;
+		padding: 0;
+	}
+
+	h4 {
+		font-size: 25px;
+	}
+}
+
 
 @media screen and (min-width: 992px){
 	.title-logo {
