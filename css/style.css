@@ -4,6 +4,9 @@ body {
 	font-weight: 300;
 }
 
+.container {
+	width: 900px;
+}
 .text-muted {
 	margin-left: 10px;
 	color: #7d97ad;
@@ -15,14 +18,37 @@ body {
 }
 
 .title-super {
-	font-size: 60px;
+	font-size: 40px;
+}
+
+.sub-title {
+	font-size: 20px;
 }
 
 .title-logo {
 	margin-top: 30px;
-	width: 90px;
+	width: 120px;
 }
 
+.menu {
+    text-align: center;
+}
+
+a.menu-item {
+    color: #222;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.menu-item + a.menu-item {
+    margin-left: 30px;
+}
+
+a.class-link {
+	font-weight: bold;
+	font-size: 17px;
+}
 img {
 	width: 100%;
 }
@@ -34,9 +60,19 @@ hr {
 }
 
 h3 {
-	font-size: 35px;
+	font-size: 20px;
 }
 
 h4 {
+	font-size: 14px;
+}
+
+ul.interest-list {
 	font-size: 15px;
 }
+
+p {
+	font-size: 15px;
+}
+
+

@@ -6,11 +6,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Wonjun Lee's Portfolio</title>
 		<link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
-		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/responsive.css">
-		<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="./css/bootstrap.min.css">
+		<link rel="stylesheet" href="./css/style.css">
+		<script type="text/javascript" src="./js/jquery-3.1.0.min.js"></script>
+		<script type="text/javascript" src="./js/bootstrap.min.js"></script>
 	</head>
 	<body>
 		<div class="container">
@@ -20,53 +19,76 @@
 				</div>
 				<div class="col-xs-9 text-right text-uppercase">
 					<h1 class="title-super text-thin">Wonjun Lee</h1>
-					<h4>Applied Mathematics</h4>
+					<h4 class="sub-title">Applied Mathematics</h4>
+					<a href="https://github.com/wonjunee">Github Link</h4> <br>
+					<a href="https://www.linkedin.com/in/wonjun-lee">LinkedIn Link</h4>
 				</div>
 			</header>
-			<div class="row">
+			<div class="menu">
 				<div class="col-xs-12">
+					<hr>
+					<a href="./index.html" class="menu-item">HOME</a>
+					<a href="./cv.html" class="menu-item">CV</a>
+					<a href="./research_interest.html" class="menu-item">RESEARCH INTEREST</a>
+					<a href="./numerical_analysis.html" class="menu-item">NUMERICAL ANALYSIS</a>
+					<a href="./SDCND.html" class="menu-item">ANUTONOMOUS CARS</a>
 					<hr>
 				</div>
 			</div>
-			<figure class="row">
-				<div class="col-xs-12">
-					<img class="img-responsive" src="http://placekitten.com/900/300" alt="Main puppy image">
-				</div>
-			</figure>
 			<section class="row">
 				<div class="col-xs-12">
 					<h2 class="text-muted">Featured Work</h2>
 				</div>
 			</section>
+			<br>
 			<article class="row text-center">
 				<div class="col-xs-4">
-					<img class="img-responsive center-block" src="http://placekitten.com/300/200" alt="Appify" data-toggle="modal" data-target="#Appify">
-					<h3 class="text-uppercase">Data Wrangling with MongoDB</h3>
-					<p>https://github.com/udacity/Appify/</p>
+					<img class="img-responsive center-block" src="./images/computervision.png" alt="computervision" data-toggle="modal" data-target="#computervision" style="width:300px;height:200px;">
+					<h3 class="text-uppercase">Computer Vision</h3>
 				</div>
 				<div class="col-xs-4">
-					<img class="img-responsive center-block" src="http://placekitten.com/300/200" alt="Sunflower puppy" data-toggle="modal" data-target="#Sunflower">
-					<h3 class="text-uppercase">Sunflower</h3>
-					<p>https://github.com/udacity/Sunflower/</p>
+					<img class="img-responsive center-block" src="./images/deeplearning.png" alt="deeplearning" data-toggle="modal" data-target="#deeplearning" style="width:300px;height:200px;">
+					<h3 class="text-uppercase">Deep Learning</h3>
 				</div>
 				<div class="col-xs-4">
-					<img class="img-responsive center-block" src="http://placekitten.com/300/200" alt="Bokeh" data-toggle="modal" data-target="#Bokeh">
-					<h3 class="text-uppercase">Bokeh</h3>
-					<p>https://github.com/udacity/Bokeh</p>
+					<img class="img-responsive center-block" src="./images/behavioral.png" alt="behavioralcloning" data-toggle="modal" data-target="#behavioralcloning" style="width:300px;height:200px;">
+					<h3 class="text-uppercase">Behavioral Cloning</h3>
+				</div>
+			</article>
+			<br><br>
+			<article class="row text-center">
+				<div class="col-xs-4">
+					<img class="img-responsive center-block" src="./images/svd.jpg" alt="svd" data-toggle="modal" data-target="#svd" style="width:300px;height:200px;">
+					<h3 class="text-uppercase">Singular Value Decomposition</h3>
+				</div>
+				<div class="col-xs-4">
+					<img class="img-responsive center-block" src="./images/differentialequations.png" alt="differential" alt="Sunflower puppy" data-toggle="modal" data-target="#differential" style="width:300px;height:200px;">
+					<h3 class="text-uppercase">Differential Equations</h3>
+				</div>
+				<div class="col-xs-4">
+					<img class="img-responsive center-block" src="./images/data-visualization.png" alt="visualization" data-toggle="modal" data-target="#visualization" style="width:300px;height:200px;">
+					<h3 class="text-uppercase">Data Visualization</h3>
 				</div>
 			</article>
 		</div>
 
+
+
 	    <!-- Modal -->
-	    <div class="modal fade" id="Appify" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	    <div class="modal fade" id="computervision" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 	        <div class="modal-dialog">
 	            <div class="modal-content">
 	                <div class="modal-header">
-	                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+	                    <h4 class="modal-title" id="myModalLabel">Computer Vision</h4>
 	                </div>
 	                <div class="modal-body">
-		                    <img class="img-responsive center-block" src="http://placekitten.com/300/200" alt="Sunflower puppy">
-	                    This was my first project in this class. I learned a lot about HTML and CSS.
+	                    <p>Finding lanes and coloring the area of the path where a car can go.</p>
+	                    <p>Camera Calibration, Camera Warping, Sobel Operator, and HLS Color.</p>
+	                    <p>Python, OpenCV</p>
+	                    <br>
+	                    <p>Link is under construction</p>
+	                    <br>
+	                    <p>This is one of <b>Self-Driving Car Engineering Nanodegree</b> Projects from Udacity</p>
 	                </div>
 	                <div class="modal-footer">
 	                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -74,15 +96,20 @@
 	            </div>
 	        </div>
 	    </div>
-	    <div class="modal fade" id="Sunflower" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	    <div class="modal fade" id="deeplearning" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 	        <div class="modal-dialog">
 	            <div class="modal-content">
 	                <div class="modal-header">
-	                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+	                    <h4 class="modal-title" id="myModalLabel">Deep Learning</h4>
 	                </div>
 	                <div class="modal-body">
-	                    <img class="img-responsive center-block" src="http://placekitten.com/300/200" alt="Sunflower puppy">
-	                    This was my second project in this class. I learned a lot about HTML and CSS.
+	                    <p>I developed the deep learning model that classifies the traffic signs from real-time photos.</p>
+	                    <p>My model consists of Convolutional Neural Layers, Drop Out, Stochastic Gradient Decsent Optimizer, and ReLu.</p>
+	                    <p>I used <b>Python</b> with <b>TensorFlow</b>.<p>
+	                    <br>
+	                    <p>Please follow this <a href="https://github.com/wonjunee/Udacity-SDND-Traffic-Signs">link</a> to see more details about the project.</p>
+	                    <br>
+	                    <p>This is one of <b>Self-Driving Car Engineering Nanodegree</b> Projects from Udacity</p>
 	                </div>
 	                <div class="modal-footer">
 	                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -90,15 +117,20 @@
 	            </div>
 	        </div>
 	    </div>
-	    <div class="modal fade" id="Bokeh" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	    <div class="modal fade" id="behavioralcloning" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 	        <div class="modal-dialog">
 	            <div class="modal-content">
 	                <div class="modal-header">
-	                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+	                    <h4 class="modal-title" id="myModalLabel">Behavioral Cloning</h4>
 	                </div>
 	                <div class="modal-body">
-	                    <img class="img-responsive center-block" src="http://placekitten.com/300/200" alt="Sunflower puppy">
-	                    This was my third project in this class. I learned a lot about HTML and CSS.
+	                    <p>I developed the deep learning model for a car to drive autonomously through behavioral cloning.</p>
+	                    <p>The model consists of Convolutional Neural Layers, Drop Out, Stochastic Gradient Decsent Optimizer, Adam Optimizer, and ReLu.</p>
+	                    <p>I used <b>Python</b> with <b>Keras</b> and <b>TensorFlow</b>.<p>
+	                    <br>
+	                    <p>Please follow this <a href="https://github.com/wonjunee/behavioral-cloning">link</a> to see more details about the project.</p>
+	                    <br>
+	                    <p>This is one of <b>Self-Driving Car Engineering Nanodegree</b> Projects from Udacity</p>
 	                </div>
 	                <div class="modal-footer">
 	                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -106,5 +138,71 @@
 	            </div>
 	        </div>
 	    </div>
+	    <div class="modal fade" id="svd" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	        <div class="modal-dialog">
+	            <div class="modal-content">
+	                <div class="modal-header">
+	                    <h4 class="modal-title" id="myModalLabel">Singular Value Decomposition (SVD)</h4>
+	                </div>
+	                <div class="modal-body">
+			            <p>Research Experience for Undergraduate (REU)  May 2013 – Aug 2014</p>
+			            <br>
+			            <p>Undergraduate Research in Computational Mathematics (URCM) sponsored by the National Science Foundation (NSF).</p>
+			            <br>
+						<p>Research Title: "Reconstruction of video data using SVD with delays of time frames.”</p>
+						<p>Abstract: Singular Value Decomposition (SVD) is a matrix factorization that can be used to compress or filter data. We apply this idea to reconstruct video acquired with noise. Our goal is to interpret the correlation of the time frames of the data and cancel the noise using delays of time frames.</p>
+						<br>
+		                <p><b>Link is under construction</b></p>
+	                </div>
+	                <div class="modal-footer">
+	                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	    <div class="modal fade" id="differential" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	        <div class="modal-dialog">
+	            <div class="modal-content">
+	                <div class="modal-header">
+	                    <h4 class="modal-title" id="myModalLabel">Differential Equations</h4>
+	                </div>
+	                <div class="modal-body">
+	                    <p> This is the personal project to get used to using Python to solve various differential equations. </p>
+	                    <p> The scripts are from Differential Equations Online Course from Udacity.</p>
+	                    <p> In my Github repository there are 3 projects. </p>
+	                    <h3>Astronomy</h3>
+	                    <p>Simple animation of the moon and the earth circulating around the sun.</p>
+	                    <h3>Contagion</h3>
+	                    <p>SEIR model using Forward Euler Method.</p>
+	                    <h3>Wildfire</h3>
+	                    <p>Modeling a physical phenomenon, wildfire, using PDE</p>
+	                    <br>
+	                    <p>Please follow this <a href="https://github.com/wonjunee/differential-equations">link</a> to see more details about the project.</p>
+
+	                </div>
+	                <div class="modal-footer">
+	                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	    <div class="modal fade" id="visualization" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	        <div class="modal-dialog">
+	            <div class="modal-content">
+	                <div class="modal-header">
+	                    <h4 class="modal-title" id="myModalLabel">Data Visualization</h4>
+	                </div>
+	                <div class="modal-body">
+	                    <p>This project is to visualize the flight routes of US airplanes with network visualization.</p>
+						<p>I Used Python to parse the data and D3.js to visualize them with a captivating animation.</p>
+						<br>
+						<p>Please follow this <a href="https://github.com/wonjunee/data-visualization">link</a> to see more details about the project.</p>
+	                </div>
+	                <div class="modal-footer">
+	                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	                </div>
+	            </div>
+	        </div>
+	    </div>	    
 	</body>
 </html>
